@@ -34,7 +34,7 @@ files locally, or in an AWS S3 bucket.
 """
 parser = argparse.ArgumentParser(description=DESCRIPTION)
 parser.add_argument('--input-url',
-                    default="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK3TIrgHSmRObVuxwBuk9uV9Bq2FKaA9ZlCbpUIc1kGyipuoKBZshUnR6B1a3Vp2eo4-0v-YNjPbbW/pub?output=csv",
+                    default="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZsCmhKpG5I0nj-sOkvw7CM_QFpNNR7dPNSgGcYlBX9OL1GcAxNst6Jp-_kuiEZw/pub?output=csv",
                     help='The source URL to process as input.')
 parser.add_argument('--input-file',
                     help='The local CSV file to process as input.')
